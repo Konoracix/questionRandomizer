@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textarea{
+    border-radius: 25px;
+    border: 1px solid #4b4b4b;
+    padding: 1vw;
+    width: 90vw;
+    height: 55vh;
+}
+
+input{
+    border-radius: 25px;
+    border: 1px solid #4b4b4b;
+}
+
+button{
+    height: 5vh;
+    border-radius: 25px;
+    border: 1px solid #4b4b4b;
+}
+
+button:hover{
+    background-color: rgb(214, 214, 214);
+    height: 5vh;
+    border-radius: 25px;
+    border: 1px solid #4b4b4b;
+}
+
+button:active{
+    background-color: rgb(146, 146, 146);
+    height: 5vh;
+    border-radius: 25px;
+    border: 1px solid #4b4b4b;
+}

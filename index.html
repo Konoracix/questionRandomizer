@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losowanie pytań</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setColor()">
+    <script src="script.js">
+        document.body.style.backgroundColor = '#caffbf';
+    </script>
+    <h1>Losowanie Pytań</h1>
+    <textarea id="textarea"></textarea> <br>
+    <input type="number" id="numberOfQuestions"> - podaj ilość pytań w zestawie <br> <br>
+    <input type="number" id="numberOfSets"> - podaj ilość zestawów <br> <br>
+    <button style="--clr:#0FF0FC" onclick="viewSets()">Podaj zestawy</button>
+
+    <div id="wynik"></div>
+</body>
+</html>
